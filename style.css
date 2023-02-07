@@ -1,0 +1,38 @@
+/* Styles the whole page to a font of arial
+*/
+* {
+    font-family: arial; 
+}
+
+h1,
+h3 {
+   font-family: Geneva;  
+}
+body{
+    background-color: darkgray;
+}
+
+/* Syntax for background color:
+    background-image: linear-gradient(direction, color-stop1, color-stop2, ...) */
+article{
+    background-image: linear-gradient(to right, rgb(201, 194, 194), rgb(129, 121, 121));
+}
+header{
+    background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover; 
+}
+/* used an id on the h3 element to give it a background color of
+blue, white and red */
+#flag{
+    background-image: linear-gradient(to right, rgb(47, 47, 198), white, rgb(185, 36, 36));
+    text-align: center;
+}
+
+a{
+    color: rgb(76, 76, 168);
+    text-decoration: none;
+}
+
+a:visited{
+    color: yellowgreen; 
+}
