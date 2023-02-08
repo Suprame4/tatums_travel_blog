@@ -10,6 +10,7 @@ h3 {
 }
 body{
     background-color: darkgray;
+    margin: 2em 2em 2em 2em; 
 }
 
 /* Syntax for background color:
@@ -20,12 +21,16 @@ article{
 header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover; 
+    color: white;
 }
 /* used an id on the h3 element to give it a background color of
 blue, white and red */
 #flag{
     background-image: linear-gradient(to right, rgb(47, 47, 198), white, rgb(185, 36, 36));
     text-align: center;
+    padding: 10px 10px;
+    border: solid 2px black;
+    margin: 10px 10px; 
 }
 
 a{
@@ -36,3 +41,4 @@ a{
 a:visited{
     color: yellowgreen; 
 }
+
